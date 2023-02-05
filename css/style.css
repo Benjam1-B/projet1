@@ -19,22 +19,26 @@ img {
     padding: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
     height: 100%;
 }
 .menu h1 {
     color: #0065FC;
+    font-weight: 500;
     margin-left: 55px;
+    padding-top: 41px;
 }
 .nav-liens {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    margin-right: 10px;
 }
 .nav-liens ul {
     display: flex;
     list-style: none;
     margin: 0;
+    gap: 5px;
 }
 .nav-liens ul:before,
 .nav-liens ul:after {
@@ -60,10 +64,10 @@ img {
     width: 150px;
 }
 .nav-liens ul > li a.hebergement {
-    padding: 47px 0 0 0;
+    padding-top: 47px;
 }
 .nav-liens ul > li a.activite {
-    padding: 47px 0 0 0;
+    padding-top: 47px;
 } 
 .nav-liens ul > li:hover {
     border-top: 2px solid #0065FC;
@@ -80,11 +84,11 @@ img {
     font-size: 22px;
     color: #000000;
     margin-left: 55px;
-    margin-top: 63px;
+    margin-top: 55px;
 }
 .recherche .text-recherche {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 410;
     font-size: 16px;
     color: #000000;
     margin-top: 8px;
@@ -95,17 +99,17 @@ img {
     display: flex;
     flex-direction: row;
     margin-left: 55px;
-    margin-top: 20px;
+    margin-top: 19px;
 }
 .boutton-recherche i {
     background: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
-    font-size: 20px;
-    padding: 15.5px 16px;
+    font-size: 18px;
+    padding: 15px 18px;
 }
 .boutton-recherche input {
-    padding: 17px 16px;
+    padding: 16px 50px 17px 16px;
     border-style: solid;
     border-width: 1px 0;
     border-color: #F2F2F2;
@@ -113,21 +117,51 @@ img {
 }
 .boutton-recherche input::placeholder {
     color: #000000;
+    font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 710;
     font-size: 18px;
     text-align: center;
+    position: relative;
+    top: 3px;
+    right: 10px;
+    
 }
 .boutton-recherche button {
     align-items: center;
-    padding: 15px 16px;
+    padding: 13px 16px 14px 16px;
     background: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
     color: #FFFFFF;
+    font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 18px;
     text-align: center;
     cursor: pointer;
+}
+
+/* FILTRES */
+.filtres {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    align-items: center;
+}
+.filtres h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+.filtres .economique {
+    display: flex;
+    background-color: white;
+    border: 2px solid #D9D9D9;
+    align-items: flex-start;
+    border-radius: 25px;
+    padding: 4px 20px;
 }
