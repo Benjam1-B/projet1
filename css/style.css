@@ -155,13 +155,13 @@ img {
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    color: #000000;
+    color: #000001;
 }
 .filtres .economique {
     display: flex;
     background-color: white;
     border: 2px solid #D9D9D9;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 25px;
     padding: 4px 20px;
 }
