@@ -260,6 +260,730 @@ img {
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
-    margin-left: 10px;
-    background-color: #0065FC;
+    margin-left: 10px;;
+}
+.sous-titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 35px;
+}
+.sous-titre i {
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: 59px;
+    font-size: 11px;
+    text-align: center;
+    align-items: center;
+    color: #0065FC;
+    padding-top: 5px;
+}
+.sous-titre p {
+    margin-left: 11px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* HEBERGEMENTS */
+.flex_hebergements {
+    display: flex;
+    flex-direction: row;
+    margin-top: 39px;
+}
+.hebergements {
+    background: #F2F2F2;
+    border-radius: 20px;
+    /*width: 850px;*/
+    height: 626px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.hebergements h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin-top: 42px;
+    margin-left: 40px;
+}
+
+/* LIGNE1 */
+.hebergements .ligne1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 23px;
+}
+
+/* LIGNE1 CARTE1 */
+.hebergements .ligne1 .carte1{
+    background: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 246px;
+    height: 199px;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.hebergements .ligne1 .carte1 img {
+    background-size: cover;
+    width: 246px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+.hebergements .ligne1 .carte1 .zone_blanche1 {
+    position: relative;
+    background-color: #FFFFFF;
+    margin-top: -55px;
+    padding-left: 16px;
+}
+.hebergements .ligne1 .carte1 .zone_blanche1 h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 10px;
+}
+.hebergements .ligne1 .carte1 .zone_blanche1 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.hebergements .ligne1 .carte1 .zone_blanche1 .kit_etoiles1 {
+    margin-top: 4px;
+}
+.hebergements .ligne1 .carte1 .zone_blanche1 .kit_etoiles1 .etoiles1 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+    margin-left: -1px;
+}
+.hebergements .ligne1 .carte1 .zone_blanche1 .kit_etoiles1 .etoiles2 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne1 .carte1 .zone_blanche1 .kit_etoiles1 .etoiles3 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne1 .carte1 .zone_blanche1 .kit_etoiles1 .etoiles4 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne1 .carte1 .zone_blanche1 .kit_etoiles1 .etoiles5 {
+    color: #F2F2F2;
+    font-size: 12px;
+}
+
+/* LIGNE1 CARTE2 */
+.hebergements .ligne1 .carte2{
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 31px;
+    overflow: hidden;
+    width: 246px;
+    height: 199px;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.hebergements .ligne1 .carte2 img {
+    background-size: cover;
+    width: 246px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+.hebergements .ligne1 .carte2 .zone_blanche2 {
+    position: relative;
+    background-color: #FFFFFF;
+    margin-top: -55px;
+    padding-left: 16px;
+}
+.hebergements .ligne1 .carte2 .zone_blanche2 h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 10px;
+}
+.hebergements .ligne1 .carte2 .zone_blanche2 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.hebergements .ligne1 .carte2 .zone_blanche2 .kit_etoiles2 {
+    margin-top: 4px;
+}
+.hebergements .ligne1 .carte2 .zone_blanche2 .kit_etoiles2 .etoiles1 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+    margin-left: -1px;
+}
+.hebergements .ligne1 .carte2 .zone_blanche2 .kit_etoiles2 .etoiles2 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne1 .carte2 .zone_blanche2 .kit_etoiles2 .etoiles3 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne1 .carte2 .zone_blanche2 .kit_etoiles2 .etoiles4 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne1 .carte2 .zone_blanche2 .kit_etoiles2 .etoiles5 {
+    color: #F2F2F2;
+    font-size: 12px;
+}
+
+/* LIGNE1 CARTE3 */
+.hebergements .ligne1 .carte3{
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 31px;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 246px;
+    height: 199px;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.hebergements .ligne1 .carte3 img {
+    background-size: cover;
+    width: 246px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+.hebergements .ligne1 .carte3 .zone_blanche3 {
+    position: relative;
+    background-color: #FFFFFF;
+    margin-top: -55px;
+    padding-left: 16px;
+}
+.hebergements .ligne1 .carte3 .zone_blanche3 h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 10px;
+}
+.hebergements .ligne1 .carte3 .zone_blanche3 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.hebergements .ligne1 .carte3 .zone_blanche3 .kit_etoiles3 {
+    margin-top: 4px;
+}
+.hebergements .ligne1 .carte3 .zone_blanche3 .kit_etoiles3 .etoiles1 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+    margin-left: -1px;
+}
+.hebergements .ligne1 .carte3 .zone_blanche3 .kit_etoiles3 .etoiles2 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne1 .carte3 .zone_blanche3 .kit_etoiles3 .etoiles3 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne1 .carte3 .zone_blanche3 .kit_etoiles3 .etoiles4 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne1 .carte3 .zone_blanche3 .kit_etoiles3 .etoiles5 {
+    color: #F2F2F2;
+    font-size: 12px;
+}
+
+
+/* LIGNE2 */
+.hebergements .ligne2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+/* LIGNE2 CARTE1 */
+.hebergements .ligne2 .carte1{
+    background: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 246px;
+    height: 199px;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.hebergements .ligne2 .carte1 img {
+    background-size: cover;
+    width: 246px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+.hebergements .ligne2 .carte1 .zone_blanche1 {
+    position: relative;
+    background-color: #FFFFFF;
+    margin-top: -117px;
+    padding-left: 16px;
+    padding-bottom: 25px;
+}
+.hebergements .ligne2 .carte1 .zone_blanche1 h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 10px;
+}
+.hebergements .ligne2 .carte1 .zone_blanche1 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.hebergements .ligne2 .carte1 .zone_blanche1 .kit_etoiles1 {
+    margin-top: 4px;
+}
+.hebergements .ligne2 .carte1 .zone_blanche1 .kit_etoiles1 .etoiles1 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+    margin-left: -1px;
+}
+.hebergements .ligne2 .carte1 .zone_blanche1 .kit_etoiles1 .etoiles2 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne2 .carte1 .zone_blanche1 .kit_etoiles1 .etoiles3 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne2 .carte1 .zone_blanche1 .kit_etoiles1 .etoiles4 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne2 .carte1 .zone_blanche1 .kit_etoiles1 .etoiles5 {
+    color: #F2F2F2;
+    font-size: 12px;
+}
+
+/* LIGNE2 CARTE2 */
+.hebergements .ligne2 .carte2{
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 31px;
+    overflow: hidden;
+    width: 246px;
+    height: 199px;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.hebergements .ligne2 .carte2 img {
+    background-size: cover;
+    width: 246px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+.hebergements .ligne2 .carte2 .zone_blanche2 {
+    position: relative;
+    background-color: #FFFFFF;
+    margin-top: -30px;
+    padding-left: 16px;
+}
+.hebergements .ligne2 .carte2 .zone_blanche2 h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 10px;
+}
+.hebergements .ligne2 .carte2 .zone_blanche2 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.hebergements .ligne2 .carte2 .zone_blanche2 .kit_etoiles2 {
+    margin-top: 4px;
+}
+.hebergements .ligne2 .carte2 .zone_blanche2 .kit_etoiles2 .etoiles1 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+    margin-left: -1px;
+}
+.hebergements .ligne2 .carte2 .zone_blanche2 .kit_etoiles2 .etoiles2 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne2 .carte2 .zone_blanche2 .kit_etoiles2 .etoiles3 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne2 .carte2 .zone_blanche2 .kit_etoiles2 .etoiles4 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne2 .carte2 .zone_blanche2 .kit_etoiles2 .etoiles5 {
+    color: #F2F2F2;
+    font-size: 12px;
+}
+
+/* LIGNE2 CARTE3 */
+.hebergements .ligne2 .carte3{
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 31px;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 246px;
+    height: 199px;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.hebergements .ligne2 .carte3 img {
+    background-size: cover;
+    width: 246px;
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+.hebergements .ligne2 .carte3 .zone_blanche3 {
+    position: relative;
+    background-color: #FFFFFF;
+    margin-top: -250px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+.hebergements .ligne2 .carte3 .zone_blanche3 h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 10px;
+}
+.hebergements .ligne2 .carte3 .zone_blanche3 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.hebergements .ligne2 .carte3 .zone_blanche3 .kit_etoiles3 {
+    margin-top: 4px;
+}
+.hebergements .ligne2 .carte3 .zone_blanche3 .kit_etoiles3 .etoiles1 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+    margin-left: -1px;
+}
+.hebergements .ligne2 .carte3 .zone_blanche3 .kit_etoiles3 .etoiles2 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne2 .carte3 .zone_blanche3 .kit_etoiles3 .etoiles3 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne2 .carte3 .zone_blanche3 .kit_etoiles3 .etoiles4 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.hebergements .ligne2 .carte3 .zone_blanche3 .kit_etoiles3 .etoiles5 {
+    color: #F2F2F2;
+    font-size: 12px;
+}
+
+/* AFFICHER PLUS */
+.hebergements a.plus {
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    margin-left: 44px;
+    top: 40px;
+    text-decoration: none;
+}
+
+/* POPULAIRES */
+.populaire {
+    background: #F2F2F2;
+    border-radius: 20px;
+    width: 420px;
+    height: 625px;
+}
+.populaire .kit_populaire {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 41px;
+}
+.populaire .kit_populaire h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin-left: 37px;
+}
+.populaire .kit_populaire i {
+    color: #0065FC;
+    margin-left: 118px;
+    font-size: 18px;
+}
+
+/* POPULAIRES CARTE4 */
+.populaire .carte4 {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 343px;
+    height: 144px;
+    overflow: hidden;
+    margin: 26px auto auto auto;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.populaire .carte4 img {
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0 0 20px;
+}
+.populaire .carte4 .zone_blanche4 {
+    position: relative;
+    background-color: #FFFFFF;
+    margin-left: -70px;
+    padding-right: 20px;
+}
+.populaire .carte4 .zone_blanche4 h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+.populaire .carte4 .zone_blanche4 p {
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.populaire .carte4 .zone_blanche4 .kit_etoiles4 {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.populaire .carte4 .zone_blanche4 .kit_etoiles4 .etoiles1 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte4 .zone_blanche4 .kit_etoiles4 .etoiles2 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte4 .zone_blanche4 .kit_etoiles4 .etoiles3 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte4 .zone_blanche4 .kit_etoiles4 .etoiles4 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte4 .zone_blanche4 .kit_etoiles4 .etoiles5 {
+    color: #F2F2F2;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+
+/* POPULAIRES CARTE5 */
+.populaire .carte5 {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 343px;
+    height: 144px;
+    overflow: hidden;
+    margin: 32px auto auto auto;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.populaire .carte5 img {
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0 0 20px;
+}
+.populaire .carte5 .zone_blanche5 {
+    position: relative;
+    background-color: #FFFFFF;
+    margin-left: -58px;
+}
+.populaire .carte5 .zone_blanche5 h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+.populaire .carte5 .zone_blanche5 p {
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.populaire .carte5 .zone_blanche5 .kit_etoiles5 {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.populaire .carte5 .zone_blanche5 .kit_etoiles5 .etoiles1 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte5 .zone_blanche5 .kit_etoiles5 .etoiles2 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte5 .zone_blanche5 .kit_etoiles5 .etoiles3 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte5 .zone_blanche5 .kit_etoiles5 .etoiles4 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte5 .zone_blanche5 .kit_etoiles5 .etoiles5 {
+    color: #F2F2F2;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+
+/* POPULAIRES CARTE6 */
+.populaire .carte6 {
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border-radius: 20px;
+    width: 343px;
+    height: 144px;
+    overflow: hidden;
+    margin: 35px auto auto auto;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.populaire .carte6 img {
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0 0 20px;
+}
+.populaire .carte6 .zone_blanche6 {
+    position: relative;
+    background-color: #FFFFFF;
+    margin-left: -70px;
+}
+.populaire .carte6 .zone_blanche6 h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+.populaire .carte6 .zone_blanche6 p {
+    position: relative;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.populaire .carte6 .zone_blanche6 .kit_etoiles6 {
+    margin-left: 20px;
+    margin-top: 58px;
+}
+.populaire .carte6 .zone_blanche6 .kit_etoiles6 .etoiles1 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte6 .zone_blanche6 .kit_etoiles6 .etoiles2 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte6 .zone_blanche6 .kit_etoiles6 .etoiles3 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte6 .zone_blanche6 .kit_etoiles6 .etoiles4 {
+    color: #0065FC;
+    font-size: 12px;
+    margin-right: -3.5px;
+}
+.populaire .carte6 .zone_blanche6 .kit_etoiles6 .etoiles5 {
+    color: #F2F2F2;
+    font-size: 12px;
+    margin-right: -3.5px;
 }
