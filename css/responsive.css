@@ -1,0 +1,118 @@
+@media (min-width: 1470px) {
+    body {
+        background-color: rgb(219, 14, 14);
+    }
+    .menu h1 {
+        font-size: 3vw;
+    }
+    .nav-liens ul > li a {
+        font-size: 1.5vw;
+        width: 11vw;
+    }
+    .recherche .titre-recherche {
+        font-size: 1.5vw;
+    }
+    .recherche .text-recherche {
+        font-size: 1.5vw;
+    }
+    .boutton-recherche i {
+        font-size: 1.1vw;
+        padding: 1%;
+        border-radius: 15px 15px;
+    }
+    .boutton-recherche input {
+        padding: 1.1% 0;
+        width: 15vw;
+        border-radius: 15px 15px;
+        margin-left: 0.5vw;
+    }
+    .boutton-recherche input::placeholder {
+        font-size: 1.1vw;
+        top: 0.25vw;
+        right: 2vw;
+    }
+    .boutton-recherche button {
+        padding: 0.75vw 0;
+        width: 10vw;
+        font-size: 1.1vw;
+        border-radius: 15px 15px;
+        margin-left: 0.5vw;
+    }
+    .filtres h3 {
+        font-size: 1.1vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1439px) {
+    body {
+        background-color: rgb(201, 32, 88);
+    }
+}
+@media (max-width: 1199px) {
+    body {
+        background-color: rgb(187, 32, 201);
+    }
+}
+@media (max-width: 1024px) {
+    body {
+        background-color: rgb(35, 32, 201);
+    }
+}
+@media (max-width: 991px) {
+    body {
+        background-color: rgb(32, 190, 201);
+    }
+}
+@media (max-width: 767px) {
+    body {
+        background-color: rgb(149, 204, 22);
+    }
+}
+@media (max-width: 571px) {
+    body {
+        background-color: rgb(201, 57, 32);
+    }
+}
+@media (max-width: 425px) {
+    body {
+        background-color: rgb(201, 142, 32);
+    }
+}

@@ -125,7 +125,6 @@ img {
     position: relative;
     top: 3px;
     right: 10px;
-    
 }
 .boutton-recherche button {
     align-items: center;
@@ -986,4 +985,232 @@ img {
     color: #F2F2F2;
     font-size: 12px;
     margin-right: -3.5px;
+}
+
+/* SECTION ACTIVITES */
+.section_activite {
+    margin-left: 50px;
+}
+.section_activite h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin-top: 60px;
+}
+.section_activite .kit_carte {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+/* CARD1 */
+.section_activite .card1 {
+    overflow: hidden;
+    width: 302px;
+    height: 444px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.section_activite .card1 img {
+    width: 302px;
+    height: 388px;
+}
+.section_activite .card1 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;   
+    margin-top: 15px; 
+    margin-left: 19px;
+}
+
+/* CARD2 */
+.section_activite .card2 {
+    overflow: hidden;
+    margin-left: 43px;
+    width: 302px;
+    height: 444px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.section_activite .card2 img {
+    width: 302px;
+    height: 388px;
+}
+.section_activite .card2 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;   
+    margin-top: 15px; 
+    margin-left: 19px;
+}
+
+/* CARD3 */
+.section_activite .card3 {
+    overflow: hidden;
+    margin-left: 43px;
+    width: 302px;
+    height: 444px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.section_activite .card3 img {
+    width: 302px;
+    height: 388px;
+}
+.section_activite .card3 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;   
+    margin-top: 15px; 
+    margin-left: 19px;
+}
+
+/* CARD4 */
+.section_activite .card4 {
+    overflow: hidden;
+    margin-left: 43px;
+    width: 302px;
+    height: 444px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: -1px 2px 10px -2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.section_activite .card4 img {
+    width: 302px;
+    height: 388px;
+}
+.section_activite .card4 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;   
+    margin-top: 15px; 
+    margin-left: 19px;
+}
+
+/* FOOTER */
+.footer {
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    width: 1339px;
+    height: 218px;
+    margin: 61px 0 0 48px;
+}
+
+/* FOOTER APROPOS */
+.footer .foot_apropos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 70px;
+}
+.footer .foot_apropos h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+.footer .foot_apropos .p1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 20px;
+}
+.footer .foot_apropos .p2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 13px;
+}
+.footer .foot_apropos .p3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 13px;
+}
+
+/* FOOTER HEBERGEMENTS */
+.footer .foot_hebergements {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 230px;
+}
+.footer .foot_hebergements h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+.footer .foot_hebergements .p1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 20px;
+}
+.footer .foot_hebergements .p2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 13px;
+}
+
+/* FOOTER ASSISTANCE */
+.footer .foot_assistance {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-left: 240px;
+}
+.footer .foot_assistance h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+}
+.footer .foot_assistance .p1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 20px;
+}
+.footer .foot_assistance .p2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 13px;
 }
