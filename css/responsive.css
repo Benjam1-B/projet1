@@ -1,7 +1,4 @@
 @media (min-width: 1470px) {
-    body {
-        background-color: rgb(219, 14, 14);
-    }
     .menu h1 {
         font-size: 3vw;
     }
@@ -41,46 +38,59 @@
     .filtres h3 {
         font-size: 1.1vw;
     }
+    .filtres .economique i{
+        font-size: 20px;
+    }
+    .filtres .economique h4{
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+    .filtres .famillial i{
+        font-size: 20px;
+    }
+    .filtres .famillial h4{
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+    .filtres .romantique i{
+        font-size: 20px;
+    }
+    .filtres .romantique h4{
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+    .filtres .animaux i{
+        font-size: 20px;
+    }
+    .filtres .animaux h4{
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+    .sous-titre i {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+        padding-top: 6px;
+    }
+    .sous-titre p {
+        font-size: 20px;
+    }
+    .flex_hebergements {
+        justify-content: space-between;
+    }
+    .hebergements {
+        margin-right: 0;
+    }
+    .populaire {
+        margin-right: 50px;
+    }
+    .section_activite .kit_carte {
+        justify-content: space-evenly;
+    }
+    .footer {
+        margin: 61px auto auto auto;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1439px) {
     body {
         background-color: rgb(201, 32, 88);
@@ -91,11 +101,132 @@
         background-color: rgb(187, 32, 201);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1024px) {
     body {
         background-color: rgb(35, 32, 201);
     }
+    .menu h1 {
+        margin-left: 72px;
+    }
+    .recherche .titre-recherche {
+        margin-left: 72px;
+        margin-top: 50px;
+    }
+    .recherche .text-recherche {
+        margin-top: 12px;
+        margin-left: 72px;
+    }
+    .boutton-recherche {
+        margin-left: 72px;
+    }
+    .filtres h3 {
+        margin-left: 72px;
+    }
+    .filtres .economique {
+        margin-left: 20px;
+    }
+    .filtres .famillial {
+        margin-left: 20px;
+    }
+    .filtres .romantique {
+        margin-left: 20px;
+    }
+    .filtres .animaux {
+        margin-left: 20px;
+    }
+    .sous-titre i {
+        margin-left: 72px;
+    }
+    .flex_hebergements {
+        flex-direction: column;
+    }
+    .hebergements {
+        margin-left: 72px;
+        margin-right: 55px;
+    }
+    .populaire {
+        background: #F2F2F2;
+        border-radius: 20px;
+        width: 1000px;
+        height: none;
+        margin: 41px auto auto auto;
+    }
+    .populaire .kit_populaire {
+
+    }
+    .populaire .kit_cards_pop {
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 991px) {
     body {
         background-color: rgb(32, 190, 201);
