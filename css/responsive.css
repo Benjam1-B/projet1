@@ -170,17 +170,35 @@
     .populaire {
         background: #F2F2F2;
         border-radius: 20px;
-        width: 1000px;
-        height: none;
-        margin: 41px auto auto auto;
-    }
-    .populaire .kit_populaire {
-
+        width: 883px;
+        height: 178px;
+        margin: 41px 55px auto 72px;
     }
     .populaire .kit_cards_pop {
         display: flex;
         flex-direction: row;
         background-color: red;
+        margin-top: 26px;
+        padding-bottom: 48px;
+    }
+    .populaire .carte4 {
+        margin: 0;
+        width: 252px;
+        height: 144px;
+        margin-left: 40px;
+        margin-right: 23px;
+    }
+    .populaire .carte5 {
+        margin: 0;
+        width: 252px;
+        height: 144px;
+        margin-right: 23px;
+    }
+    .populaire .carte6 {
+        margin: 0;
+        width: 252px;
+        height: 144px;
+        margin-right: 40px;
     }
 }
 
