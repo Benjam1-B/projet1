@@ -171,15 +171,20 @@
         background: #F2F2F2;
         border-radius: 20px;
         width: 883px;
-        height: 178px;
-        margin: 41px 55px auto 72px;
+        height: 278px;
+        margin: 50px 55px auto 72px;
+    }
+    .populaire .kit_populaire {
+        margin-top: 38px;
+    }
+    .populaire .kit_populaire i {
+        margin-left: 580px;
     }
     .populaire .kit_cards_pop {
         display: flex;
         flex-direction: row;
         background-color: red;
         margin-top: 26px;
-        padding-bottom: 48px;
     }
     .populaire .carte4 {
         margin: 0;
@@ -188,17 +193,71 @@
         margin-left: 40px;
         margin-right: 23px;
     }
+    .populaire .carte4 .zone_blanche4 {
+        margin-left: -100px;
+        padding-right: 10px;
+    }
+    .populaire .carte4 .zone_blanche4 h3 {
+        font-size: 14px;
+        margin-left: 15px;
+        margin-top: 14px;
+    }
+    .populaire .carte4 .zone_blanche4 p {
+        font-size: 13px;
+        margin-left: 15px;
+        margin-top: 7px;
+    }
+    .populaire .carte4 .zone_blanche4 .kit_etoiles4 {
+        margin-left: 15px;
+        margin-top: 50px;
+    }
     .populaire .carte5 {
         margin: 0;
         width: 252px;
         height: 144px;
         margin-right: 23px;
     }
+    .populaire .carte5 .zone_blanche5 {
+        margin-left: -90px;
+        padding-right: 10px;
+    }
+    .populaire .carte5 .zone_blanche5 h3 {
+        font-size: 14px;
+        margin-left: 15px;
+        margin-top: 14px;
+    }
+    .populaire .carte5 .zone_blanche5 p {
+        font-size: 13px;
+        margin-left: 15px;
+        margin-top: 7px;
+    }
+    .populaire .carte5 .zone_blanche5 .kit_etoiles5 {
+        margin-left: 15px;
+        margin-top: 50px;
+    }
     .populaire .carte6 {
         margin: 0;
         width: 252px;
         height: 144px;
         margin-right: 40px;
+    }
+    .populaire .carte6 .zone_blanche6 {
+        margin-left: -95px;
+        padding-right: 10px;
+    }
+    .populaire .carte6 .zone_blanche6 h3 {
+        font-size: 14px;
+        margin-left: 15px;
+        margin-top: 14px;
+    }
+    .populaire .carte6 .zone_blanche6 p {
+        font-size: 13px;
+        margin-left: 15px;
+        margin-top: 7px;
+    }
+    .populaire .carte6 .zone_blanche6 .kit_etoiles6 {
+        margin-left: 15px;
+        margin-top: 50px;
     }
 }
 
