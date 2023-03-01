@@ -109,7 +109,7 @@ img {
     padding: 15px 18px;
 }
 .boutton-recherche input {
-    padding: 16px 50px 17px 16px;
+    padding: 16px 70px 17px 16px;
     border-style: solid;
     border-width: 1px 0;
     border-color: #F2F2F2;
@@ -139,6 +139,10 @@ img {
     font-size: 18px;
     text-align: center;
     cursor: pointer;
+}
+.boutton-recherche button i {
+    position: absolute;
+    visibility: hidden;
 }
 
 /* FILTRES */
