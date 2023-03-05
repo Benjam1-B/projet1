@@ -305,6 +305,8 @@ img {
     height: 626px;
     margin-left: 50px;
     margin-right: 40px;
+    display: flex;
+    flex-direction: column;
 }
 .hebergements h2 {
     font-family: 'Raleway';
